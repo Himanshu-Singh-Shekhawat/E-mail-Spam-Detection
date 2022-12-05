@@ -42,18 +42,18 @@ One of the spam training data does look like one of those spam advertisement ema
 
 1. Wordcloud:-
 Wordcloud is a useful visualization tool for you to have a rough estimate of the words that has the highest frequency in the data that you have.
-https://miro.medium.com/max/720/1*QcsZSm5Bj4Vo-6DTJUizwQ.webp
-
-https://miro.medium.com/max/720/1*yJ-ODGRYXoUIiVatjKMlRg.webp
+<img  alt="Coding" width="500" src="https://miro.medium.com/max/720/1*QcsZSm5Bj4Vo-6DTJUizwQ.webp">
 
 From this visualization, you can notice something interesting about the spam email. A lot of them are having high number of “spammy” words such as: free, money, product etc. Having this awareness might help us to make better decision when it comes to designing the spam detection system.
+
+<img  alt="Coding" width="500" src="https://miro.medium.com/max/720/1*yJ-ODGRYXoUIiVatjKMlRg.webp">
 
 One important thing to note is that word cloud only displays the frequency of the words, not necessarily the importance of the words. Hence it is necessary to do some data cleaning such as removing stopwords, punctuation and so on from the data before visualizing it.
 
 ## N-grams model visualization
 
 Another technique of visualization is by utilizing bar chart and display the frequency of the words that appear the most. N-gram means that how many words you are considering as a single unit when you are calculating the frequency of words.
-https://miro.medium.com/max/720/1*4r0AUyzW6qG0YJReV6vEEA.webp
+<img  alt="Coding" width="400" src="https://miro.medium.com/max/720/1*4r0AUyzW6qG0YJReV6vEEA.webp">
 
 ## Train Test Split
 It is important to split your data set to training set and test set, so that you can evaluate the performance of your model using the test set before deploying it in a production environment.
@@ -62,9 +62,9 @@ One important thing to note when doing the train test split is to make sure the 
 
 What it means in this context is that the percentage of spam email in the training set and test set should be similar.
 
-https://miro.medium.com/max/720/1*gf8EwdBiWdxZHY4j1r9wqA.webp
+<img  alt="Coding" width="400" src="https://miro.medium.com/max/720/1*gf8EwdBiWdxZHY4j1r9wqA.webp">
 
-https://miro.medium.com/max/640/1*d1gosJDGJmD5i9l6mW9Gzw.webp
+<img  alt="Coding" width="400" src="https://miro.medium.com/max/640/1*d1gosJDGJmD5i9l6mW9Gzw.webp">
 
 **➲ Data Preprocessing**
 
