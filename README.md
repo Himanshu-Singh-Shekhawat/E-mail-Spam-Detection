@@ -12,7 +12,7 @@ This is list of required packages and modules for the project to be installed :
 2. Pandas
 3. Numpy
 4. Scikit-learn
-5 NLTK
+5. NLTK
 
 **➲ The Dataset**
 Human activites dataset contain about 5728 record which is a sample of an email
